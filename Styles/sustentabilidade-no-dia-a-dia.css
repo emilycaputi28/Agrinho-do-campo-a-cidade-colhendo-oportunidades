@@ -1,0 +1,66 @@
+
+.sustentabilidade-no-dia-a-dia__titulo{
+    background-color: var(--marrom);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 20px ;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.dia-a-dia__cards{
+    margin: 1em auto;
+}
+
+.card__sustentabilidade-no-dia-a-dia{
+    background-color: var(--branco); 
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25); 
+    border-radius: 20px; 
+    margin: 1.5em;  
+    margin-bottom: 0.5em;
+    font-family: var(--fonte-principal);
+}
+
+.dia-a-dia__titulo{
+    color: var(--marrom);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.7em;
+}
+
+.dia-a-dia__paragrafo{
+    color: var(--preto);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 1em 1.5em 1em;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (min-width:1024px){
+
+    .sustentabilidade-no-dia-a-dia__titulo{
+        font-size: 36px;
+    }
+
+    .dia-a-dia__cards{
+        display: flex;
+    }
+
+    .card__sustentabilidade-no-dia-a-dia{
+        width: 50%;
+    }
+
+    .dia-a-dia__titulo{
+        font-size: 22px;
+    }
+
+    .dia-a-dia__paragrafo{
+        font-size: 28px;
+    }
+
+}

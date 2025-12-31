@@ -1,0 +1,19 @@
+.imagem__rodapé{
+    width: 100%;
+}
+
+.imagem__rodapé-2{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px){
+    .imagem__rodapé{
+        display: none;
+    }
+
+    .imagem__rodapé-2{
+        display: flex;
+        width: 100%;
+    }
+}
