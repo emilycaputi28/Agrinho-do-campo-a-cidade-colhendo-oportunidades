@@ -1,0 +1,26 @@
+@import url(Styles/header.css);
+@import url(Styles/carrossel.css);
+@import url(Styles/agricultura-de-precisão.css);
+@import url(Styles/carrossel-2.css);
+@import url(Styles/sustentabilidade-na-agricultura.css);
+@import url(Styles/sustentabilidade-no-dia-a-dia.css);
+@import url(Styles/rodapé.css);
+
+
+
+:root{
+    --fonte-secundaria:"Poppins";
+    --fonte-principal: "Open Sans";
+    --branco: #FFFFFF;
+    --marrom: #4F1C00;
+    --amarelo: #F7FF00;
+    --preto: #000000;
+    --verde: #048004;
+    --azul: #00028F;
+    --azul-claro: #289be7;
+    --cor-de-fundo: linear-gradient( #00CD18, #085c00, #010247);
+}
+
+body{
+    background-image: var(--cor-de-fundo) ;
+}
